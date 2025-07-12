@@ -1,7 +1,7 @@
 
 # MLOps Project - Vehicle Insurance Data Pipeline
 
-This project aims to demonstrate a robust pipeline for deploying a machine learning project with step by step instrictions on project setup, data processing, model deployment, and CI/CD automation.
+This project aims to demonstrate a robust pipeline for deploying a machine learning project with step-by-step instructions on project setup, data processing, model deployment, and CI/CD automation.
 
 ---
 
