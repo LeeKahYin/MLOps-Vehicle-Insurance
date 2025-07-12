@@ -135,10 +135,30 @@ This project aims to demonstrate a robust pipeline for deploying a machine learn
 1. Open the 5000 port on the EC2 instance.
 2. Access the deployed app by visiting `http://<public_ip>:5000`.
 
+---
 
-## 🎯 Project Workflow Summary
+## 🎯 Project Summary
 
 1. **Data Ingestion** ➔ **Data Validation** ➔ **Data Transformation**
 2. **Model Training** ➔ **Model Evaluation** ➔ **Model Deployment**
 3. **CI/CD Automation** with GitHub Actions, Docker, AWS EC2, and ECR
+
+### 🛠️ Tools and Technologies Used
+
+| Category                      | Tools / Technologies                                                  |
+| ----------------------------- | --------------------------------------------------------------------- |
+| **Project Setup**             | Python, Conda, `setup.py`, `pyproject.toml`, Virtual Environments     |
+| **Data Storage**              | [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)                  |
+| **EDA & Feature Engineering** | Jupyter Notebooks, Pandas, Matplotlib, Seaborn, Scikit-learn          |
+| **Logging & Exceptions**      | Python `logging` module, Custom Exception Handling Classes            |
+| **Model Training**            | Scikit-learn, Custom ML Pipeline using `estimator.py`                 |
+| **Model Storage**             | Amazon S3, `boto3` SDK                                                |
+| **Model Deployment**          | Flask (`app.py`), HTML Templates, AWS EC2, Static Web UI              |
+| **CI/CD Automation**          | GitHub Actions (for CI/CD Pipelines), GitHub Secrets, Docker, AWS ECR |
+| **Containerization**          | Docker, Dockerfile, `.dockerignore`                                   |
+| **Cloud Infrastructure**      | AWS EC2 (hosting), AWS IAM (access management), AWS S3, AWS ECR       |
+| **Environment Variables**     | `.env`, OS-based variable management (`export`, `$env:` commands)     |
+| **Source Control**            | Git, GitHub (Version Control and Actions)                             |
+
+
 
